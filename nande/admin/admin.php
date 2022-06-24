@@ -1,6 +1,6 @@
-
-
 <?php
+session_start();
+ob_start();
 include 'model.php';
 admin_login();
 ?>
